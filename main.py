@@ -29,5 +29,4 @@ for filename in os.listdir(bson_directory):
             except Exception as e:
                 print(f"Error occurred while importing {bson_file_path}: {e}")
 
-# Fermer la connexion MongoDB
 client.close()
